@@ -1,12 +1,13 @@
+# docker build --build-arg PG_VERSION=12.2-r0 -t subzerocloud/pgtap:pg12 .
 # docker build --build-arg PG_VERSION=11.1-r0 -t subzerocloud/pgtap:pg11 .
 # docker build --build-arg PG_VERSION=10.5-r0 -t subzerocloud/pgtap:pg10 .
 # docker build --build-arg PG_VERSION=9.6.10-r0 -t subzerocloud/pgtap:pg9 .
-FROM alpine:3.9
+FROM alpine:3.11
 MAINTAINER Andreas Wålm <andreas@walm.net>
 MAINTAINER Ludovic Claude <ludovic.claude@chuv.ch>
 MAINTAINER Ruslan Talpa <ruslan.talpa@gmail.com>
 
-ARG PGTAP_VERSION=v1.0.0
+ARG PGTAP_VERSION=v1.1.0
 ARG PG_VERSION
 ENV DOCKERIZE_VERSION=v0.6.1
 

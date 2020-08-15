@@ -16,7 +16,7 @@ This docker image is available as an automated build on [the docker registry hub
 
 
 ```console
-$ docker run hbpmip/pgtap:0.96.0-5
+$ docker run subzerocloud/pgtap:pg11
 ```
 
 ## How to use this image

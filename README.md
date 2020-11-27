@@ -12,11 +12,11 @@ From: [pgTAP: Unit testing for PostgreSQL](http://pgtap.org/)
 
 ## Install
 
-This docker image is available as an automated build on [the docker registry hub](https://registry.hub.docker.com/u/subzerocloud/pgtap/), so using it is as simple as running:
+This docker image is available as an automated build on [the docker registry hub](https://registry.hub.docker.com/r/subzerocloud/pgtap), so using it is as simple as running:
 
 
 ```console
-$ docker run hbpmip/pgtap:0.96.0-5
+$ docker run subzerocloud/pgtap:pg11
 ```
 
 ## How to use this image
